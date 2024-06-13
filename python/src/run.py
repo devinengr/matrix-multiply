@@ -8,8 +8,8 @@ def run_brute_force(two_pow_n, f, pair_index_start):
     # start timer
     time_start = time.time()
     matrix_multiply.multiply_by_brute_force(
-        f.getMatrixList()[pair_index_start],
-        f.getMatrixList()[pair_index_start + 1],
+        f.get_matrix_list()[pair_index_start],
+        f.get_matrix_list()[pair_index_start + 1],
         0, 0,
         0, 0,
         two_pow_n)
@@ -23,8 +23,8 @@ def run_strassens(two_pow_n, f, n, pair_index_start):
     # start timer
     time_start = time.time()
     matrix_multiply.multiply_by_strassens(
-        f.getMatrixList()[pair_index_start],
-        f.getMatrixList()[pair_index_start + 1],
+        f.get_matrix_list()[pair_index_start],
+        f.get_matrix_list()[pair_index_start + 1],
         0, 0,
         0, 0,
         two_pow_n,
@@ -40,8 +40,8 @@ def run_both(two_pow_n, f, n, pair_index_start):
     # start timer
     time_start = time.time()
     matrix_multiply.multiply_by_strassens_and_brute_force(
-        f.getMatrixList()[pair_index_start],
-        f.getMatrixList()[pair_index_start + 1],
+        f.get_matrix_list()[pair_index_start],
+        f.get_matrix_list()[pair_index_start + 1],
         0, 0,
         0, 0,
         two_pow_n,
