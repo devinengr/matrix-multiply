@@ -1,0 +1,10 @@
+# https://stackoverflow.com/questions/115983/how-do-i-add-an-empty-directory-to-a-git-repository
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
+# This file exists to keep the obj/ folder in the repository.
+# Otherwise, it could be created using "mkdir" in the Makefile,
+# but then an error would need to be suppressed, and Windows
+# and Linux do not have the same syntax for doing so.
