@@ -1,5 +1,9 @@
 # Matrix Multiply
 
+![multiply](resources/matrix_both_compare_n9.gif)
+
+# Description
+
 Use this program to multiply many pairs of matrices very quickly. If speed of multiplication is the goal, use the C version, as the Python version is considerably slower. This program was originally written in Python, then it was rewritten in C due to its expensive operations.
 
 # Requirements
